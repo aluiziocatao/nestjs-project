@@ -6,8 +6,8 @@
 </p>
 
 ## Description
-### Projeto desenvolvido para exercitar conhecimentos sobre NestJS.
-### Esse projeto é utilizado para gerenciar uma lista de tarefas. 
+Projeto desenvolvido para exercitar conhecimentos sobre NestJS.
+Esse projeto é utilizado para gerenciar uma lista de tarefas. 
 
 ## Installation
 
