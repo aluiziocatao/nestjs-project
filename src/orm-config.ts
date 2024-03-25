@@ -5,7 +5,7 @@ export const config: DataSourceOptions = {
     database: '.db/sql',
     synchronize: true,
     logging: true,
-    entities: [__dirname + "/../**/*.entity{.ts,.js}"],
-    migrations: [__dirname + "/../**/*.migration{.ts,.js}"],
-    subscribers: [__dirname + "/../**/*.subscriber{.ts,.js}"],
+    entities: [__dirname + "/**/*.entity{.ts,.js}"],
+    migrations: [__dirname + "/**/*.migration{.ts,.js}"],
+    subscribers: [__dirname + "/**/*.subscriber{.ts,.js}"],
 }
