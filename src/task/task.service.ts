@@ -26,11 +26,11 @@ export class TaskService {
     return await this.taskRepository.findOneBy({id});
   }
 
-  update(id: number, updateTaskDto: UpdateTaskDto) {
-    return `This action updates a #${id} task`;
+  async update(id: number, updateTaskDto: UpdateTaskDto) {
+    return await this.taskRepository.update(id, updateTaskDto);
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} task`;
+  async remove(id: number) {
+    return await this.taskRepository.delete(id);
   }
 }
